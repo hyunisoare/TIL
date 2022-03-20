@@ -15,7 +15,7 @@ from Stunde s
 where s.St_Klasse = '3BAIF' and St_Stunde = maxStd
 group by St_Tag;
 ```
-<img src="D:\HTL\DBI\groupby1.PNG" width="400"/>
+![groupby1](D:\HTL\DBI\groupby1.PNG)
 
 it shows only one each values which grouped by day.  
 
@@ -29,6 +29,7 @@ from Stunde s
 where s.St_Klasse = '3BAIF' and St_Stunde = maxStd
 group by St_Tag, St_Lehrer;
 ```
-<img src="D:\HTL\DBI\groupby.PNG" width="400"/>
+
+![groupby2](D:\HTL\DBI\groupby.PNG)
 
 With 2 properties for GROUP BY, it shows duplicate values for each day. 
