@@ -5,8 +5,8 @@
 <form defaultButton="btnSearch" runat="server">
 ```
 
-```C#
 - The <asp:panel> control can override the defaultButton specified when the panel has focus:
+```C#
 <asp:Panel runat="server" defaultButton="btnOk">
 ...
 <asp:Panel>
