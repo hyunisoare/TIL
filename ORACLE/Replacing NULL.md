@@ -1,9 +1,9 @@
-*** Replacing NULL value ***
+#Replacing NULL value
 
 ```oracle
 SELECT NAME,
-			 HOUSES,
-			 CATEGORY
+	   HOUSES,
+       CATEGORY
 FROM   OH_OWNERSHIP B
 			 INNER JOIN
 			 OH_OWENERSHIP A
